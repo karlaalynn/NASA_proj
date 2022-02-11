@@ -1,0 +1,39 @@
+body {
+    width: 850px;
+    margin: 0 auto
+}
+main {
+    width: 850px;
+    height: 450px;
+    margin: 0 auto;
+    background-image: url("marspic.jpeg");
+    color: white;
+}
+section {
+   display: flex;
+   height: 324px;
+   flex-direction:row;
+   justify-content: space-between;
+header {
+    background-image: ("marspic.jpeg");
+    border: 1px solid black;
+    height: 450px;
+    width: 850px;
+    margin-bottom: 20px;
+}
+
+article {
+    border: 1px solid black;
+    height: 300px;
+    width: 250px;
+    background-color: rgb(224, 222, 222);
+    margin: 20px;
+}
+
+footer {
+    display: flex;
+    border: 1px solid black;
+    height: 324px;
+    width: 850px;
+    padding: 20px; 
+} 
